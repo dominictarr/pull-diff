@@ -1,0 +1,25 @@
+{
+  "name": "pull-diff",
+  "description": "",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dominictarr/pull-diff",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/pull-diff.git"
+  },
+  "dependencies": {
+    "libnested": "^1.2.1",
+    "obv": "0.0.1"
+  },
+  "devDependencies": {
+    "pull-json-doubleline": "^1.1.0",
+    "pull-stream": "^3.6.0",
+    "stream-to-pull-stream": "^1.7.2",
+    "tape": "^4.6.3"
+  },
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "author": "'Dominic Tarr' <dominic.tarr@gmail.com> (http://dominictarr.com)",
+  "license": "MIT"
+}

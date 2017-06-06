@@ -1,0 +1,8 @@
+[
+  {"foo": true},
+  1,
+  {"bar": true, "baz": true, "foo": true},
+  {"bar": true, "baz": 1, "foo": {"X": 1, "Y": 2, "Z": 3}},
+  {"bar": true, "baz": 1, "foo": {"X": 3, "Y": 2, "Z": 3}}
+]
+
